@@ -1,0 +1,91 @@
+body {
+    /* background-color: powderblue; */
+    background-image: linear-gradient(to bottom, rgba(234, 175, 200,1),rgba(101, 78, 163,1));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  h2 {
+    color: blue;
+    font-style: oblique;
+    font-variant:small-caps ;
+    font-family: cursive;
+    font-size: 72px;
+    text-shadow: 2px 2px 5px #0080ff;
+  }
+  h3 {
+    color:#00ffff;
+    font-style: oblique;
+    padding-left: 5%;
+    font-size:32px ;
+  }
+  h4{
+    background-image: linear-gradient(to right, rgba(245, 98, 23,0.5),rgba(11, 72, 1077,0.5));
+    color:whitesmoke;
+    font-size:72px;
+    align-content: center;
+  }
+  table{
+    border: 3px solid blue;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    padding: 10;
+    vertical-align: center;
+    font-size: x-large;
+    background-image: linear-gradient(to right, rgba(137, 255, 253,0.5),rgba(239, 50, 217,0.5));
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.5);
+    width: 75%;
+  }
+  td{
+    border:1.5px solid darkblue;
+    text-align: center; 
+    padding: 15px;
+    font-style: italic;
+  }
+  th{
+    border:1.5px solid #3333ff; 
+    text-align: center;
+    font-style: oblique;
+    padding: 15px;
+  }
+  img {
+    /* display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  img:hover {
+    transform: scaleX(-1);
+  }
+  ol{
+      padding-left: 2.5%;
+      color:#05613c;
+      font-size: 20px;
+      list-style-type:armenian;
+  }
+  ul{
+      padding-left: 3%;
+      color:#66ff33;
+      font-size: 24px;
+      font-style: italic;
+      list-style-type: georgian;
+  }
+  li{
+      padding-left: 1%;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #009fff;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color:#009fff; left:10%; top:150%;}
+    30%  {background-color:#ec2f4b; left:90%; top:150%;}
+    50%  {background-color:#ec2f4b; left:90%; top:200%;}
+    80%  {background-color:#009fff; left:10%; top:200%;}
+    100% {background-color:#009fff; left:10%; top:150%;}
+  }
